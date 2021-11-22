@@ -15,7 +15,7 @@ import { reducer } from './keyboard';
 const keyboardPersistConfig = {
     key: 'keyboard',
     storage,
-    // whitelist: ['token'],
+    blacklist: ['showModal', 'pressedButton'],
 };
 
 const middleware = [...getDefaultMiddleware({

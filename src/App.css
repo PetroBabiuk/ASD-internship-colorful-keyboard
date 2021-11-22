@@ -1,3 +1,147 @@
 .App {
+  display: flex;
   text-align: center;
+  background-color: #0a0a12;
+  width: 1110px;
+  height: 350px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+.title {
+  text-align: center;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000cc;
+  z-index: 1200;
+}
+
+.Modal {
+  max-width: 500px;
+  max-height: 700px;
+  padding: 22px;
+  border-radius: 20px;
+  background-color: #808080;
+  color: white;
+}
+
+.ConfirmButton,
+.ResetButton {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  text-transform: uppercase;
+  background-color: #100f0f;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a12;
+  width: 400px;
+  height: 200px;
+  margin-left: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.Keyboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ButtonRow {
+  display: flex;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.KeyButton {
+  width: 3.3em;
+  height: 40px;
+  margin: 0.2em;
+  padding: 0.2em;
+  cursor: pointer;
+  background: #333;
+  text-align: center;
+  color: #eee;
+  border: 1px solid #444;
+  border-radius: 0.3em;
+  border-bottom-color: #555;
+}
+
+#F1,
+#F5,
+#F9 {
+  margin-left: 41px;
+}
+
+#Backspace {
+  min-width: 6.7em;
+}
+
+#PrintScreen,
+#Insert,
+#Delete,
+#Left {
+  margin-left: 20px;
+}
+
+#Tab,
+#Backslash,
+#ControlRight,
+#ControlLeft {
+  min-width: 5em;
+}
+
+#ControlRight {
+  margin-right: 20px;
+}
+
+#CapsLock {
+  min-width: 6.5em;
+}
+
+#Enter {
+  min-width: 7.3em;
+}
+
+#ShiftLeft {
+  min-width: 8.5em;
+}
+
+#ShiftRight {
+  min-width: 8.9em;
+  margin-right: 78px;
+}
+
+#Meta,
+#AltLeft,
+#AltRight,
+#Fn,
+#ContextMenu {
+  min-width: 4em;
+}
+
+#Space {
+  min-width: 22.7em;
 }

@@ -3,12 +3,12 @@ import { mainKeys } from '../../utils/keyObjects';
 import { createReducer} from "@reduxjs/toolkit";
 import actions from "./keyboard-actions";
 
-const initialState =  [...mainKeys] ;
+const initialMainKeyboardState =  [...mainKeys] ;
 
-const keyboard = createReducer(initialState, {
+const keyboard = createReducer(initialMainKeyboardState, {
     [actions.pressKey]: (state, { payload }) => {
         state.map((row) => row.map(key => {
-            if (key.name === payload.name) {
+            if (key.code === payload.code) {
                 key.color = payload.color;
                 return key;
             }
@@ -21,6 +21,20 @@ const keyboard = createReducer(initialState, {
     }
 });
 
+const showModal = createReducer(false, {
+    [actions.showModal]: (state, { payload }) => {
+        return payload.bool;
+    }
+})
+
+const pressedButton = createReducer(null, {
+    [actions.pressButton]: (state, { payload }) => {
+        return payload.code;
+    }
+})
+
 export default combineReducers({
     keyboard,
+    showModal,
+    pressedButton,
 });

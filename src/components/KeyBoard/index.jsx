@@ -1,19 +1,11 @@
 import ButtonsRow from "../ButtonsRow";
 
 const KeyBoard = ({ keys }) => {
-
     
     return (
-        <div style={{
-            width: '800px',
-            height: '400px',
-            display: 'flex',
-            flexDirection: 'column',
-            marginLeft: 'auto',
-            marginRight: 'auto'
-        }}>
+        <div className='Keyboard'>
             {keys.map((row, index) =>
-                <ButtonsRow key={index} keys={row} />
+                <ButtonsRow key={index} keys={row} row={index} />
             )}
         </div>
     );
