@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/asd-internship-colorful-keyboard/static/css/main.79074ba3.chunk.css",
+    "main.js": "/asd-internship-colorful-keyboard/static/js/main.52fc6147.chunk.js",
+    "main.js.map": "/asd-internship-colorful-keyboard/static/js/main.52fc6147.chunk.js.map",
+    "runtime-main.js": "/asd-internship-colorful-keyboard/static/js/runtime-main.21813e88.js",
+    "runtime-main.js.map": "/asd-internship-colorful-keyboard/static/js/runtime-main.21813e88.js.map",
+    "static/css/2.cfde5f84.chunk.css": "/asd-internship-colorful-keyboard/static/css/2.cfde5f84.chunk.css",
+    "static/js/2.3884abb3.chunk.js": "/asd-internship-colorful-keyboard/static/js/2.3884abb3.chunk.js",
+    "static/js/2.3884abb3.chunk.js.map": "/asd-internship-colorful-keyboard/static/js/2.3884abb3.chunk.js.map",
+    "index.html": "/asd-internship-colorful-keyboard/index.html",
+    "static/css/2.cfde5f84.chunk.css.map": "/asd-internship-colorful-keyboard/static/css/2.cfde5f84.chunk.css.map",
+    "static/css/main.79074ba3.chunk.css.map": "/asd-internship-colorful-keyboard/static/css/main.79074ba3.chunk.css.map",
+    "static/js/2.3884abb3.chunk.js.LICENSE.txt": "/asd-internship-colorful-keyboard/static/js/2.3884abb3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21813e88.js",
+    "static/css/2.cfde5f84.chunk.css",
+    "static/js/2.3884abb3.chunk.js",
+    "static/css/main.79074ba3.chunk.css",
+    "static/js/main.52fc6147.chunk.js"
+  ]
+}
